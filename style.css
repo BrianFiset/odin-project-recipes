@@ -1,12 +1,21 @@
 .home {
-    background-color: #F7F4E9;
     text-align: center;
 
 }
 
-.home > h1 {
+body {
+    background-color: #F7F4E9;
+}
+
+h1 {
     color: #D93E30;
     font-size: 3rem;
+    text-align: center;
+}
+
+.img, 
+h3 {
+    text-align: center;
 }
 
 a {
