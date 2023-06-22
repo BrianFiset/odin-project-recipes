@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container {
+    border: solid 3px #D93E30;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #F7F4E9;
+    padding: 10px 0;
+    height: 95vh;
+}
+
+.recipe-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe-container > *{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.recipe-container > * > img {
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+a {
+    display: block;
+}
